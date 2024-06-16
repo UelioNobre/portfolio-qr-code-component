@@ -1,0 +1,91 @@
+:root {
+  --colorWhite: hsl(0, 0%, 100%);
+  --colorLightGray: hsl(212, 45%, 89%);
+  --colorGrayishBlue: hsl(220, 15%, 55%);
+  --colorDarkBlue: hsl(218, 44%, 22%);
+  --colorLink: hsl(216, 95%, 57%);
+
+  --borderRadiusLarge: 20px;
+  --borderRadiusMedium: calc((var(--borderRadiusLarge) / 2));
+
+  --fontFamily: "Outfit";
+  --fontWeightLight: 400;
+  --fontWeightBold: 700;
+  --fontSizeDefault: 15px;
+  --padding: 1rem;
+}
+
+
+*, html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--colorLightGray);
+  font-family: var(--fontFamily);
+  font-size: var(--fontSize);
+}
+
+main {
+  width: 320px;
+  height: 470px;
+  background-color: var(--colorWhite);
+  position: absolute;
+  left: calc(50% - calc(320px/2));
+  top: calc(50% - calc(497px/2));
+  border-radius: var(--borderRadiusLarge);
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0477);
+padding: 15px;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--borderRadiusMedium);
+  overflow: hidden;
+}
+
+.imageContainer > img {
+  width: 100%;
+}
+
+h1
+{
+  font-size: calc(var(--fontSizeDefault) * 1.4);
+  font-weight: var(--fontWeightBold);
+  text-align: center;
+  color: var(--colorDarkBlue);
+  margin: var(--fontSizeDefault);
+}
+
+p, a
+{
+  font-size: var(--fontSizeDefault);
+  font-weight: var(--fontWeightLight);
+  text-align: center;
+  padding: 0px 10px;
+  color: var(--colorGrayishBlue);
+}
+
+a {
+  padding: 0;
+  text-decoration: none;
+  transition: color 0.3s;
+  color: var(--colorDarkBlue);
+}
+
+a:hover {
+  color: var(--colorLink);
+}
+
+footer {
+  position: absolute;
+  bottom: var(--padding);;
+  text-align: center;
+  width: 100%;
+  padding: var(--padding);
+  color: var(--colorDarkBlue);
+}
