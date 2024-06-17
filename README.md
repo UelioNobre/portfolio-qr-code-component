@@ -19,6 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
+This challenge is to build out this QR code component and get it looking as close to the design as possible.
+
 ### Screenshot
 
 ![Screenshot](./screenshot.png)
@@ -31,8 +33,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repository](https://uelionobre.github.io/portfolio-qr-code-component/)
+- Live Site URL: [QR-Code component](https://uelionobre.github.io/portfolio-qr-code-component/)
 
 ## My process
 
@@ -69,6 +71,4 @@ Seguir os exemplos do site [Frontend Mentor](https://www.frontendmentor.io/) par
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Agradecimentos a Trybe e Frontend Mentor.
